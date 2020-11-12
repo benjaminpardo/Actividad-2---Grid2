@@ -1,0 +1,55 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(8, 30px);
+    gap: 2px;
+}
+
+.grid-container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: #fff;
+    background-color: green;
+}
+
+.item1 {
+    grid-column: span 2; 
+}
+
+.item2 {
+    grid-column: span 2; 
+}
+
+.item3 {
+  grid-row: span 6;
+}
+
+.item4 {
+    grid-row: span 3;
+  }
+
+  .item5 {
+    grid-row: span 3;
+  }
+
+  .item6 {
+    grid-row: span 6;
+  }
+
+  .item7 {
+    grid-row: span 3;
+  }
+
+  .item8 {
+    grid-row: span 3;
+  }
+
+  .item9 {
+    grid-column: span 2; 
+}
+
+.item10 {
+    grid-column: span 2; 
+}
